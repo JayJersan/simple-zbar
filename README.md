@@ -6,7 +6,7 @@ You can start scanning barcodes/QR codes supported by zbar without any configura
 Every time the code is run, a csv file is created that logs all the barcodes scanned with the data in [Data.csv](simple-zbar/Data.csv) if applicable for the session
 After you feel like you have scanned enough, press q to quit
 
-#Customization
+# Customization
 To change the pop-ups, modify the [Data.csv](simple-zbar/Data.csv) file
   * The first column matches with the barcode scanned
   * Leave the label for the second column. The timestamp will be inserted automatically
