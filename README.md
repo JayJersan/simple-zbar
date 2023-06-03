@@ -3,7 +3,9 @@ A barcode reader that takes video from webcam and shows customizable popups for 
 
 # Usage
 You can start scanning barcodes/QR codes supported by zbar without any configuration. If you want to scan only a specific type(s) of barcode, you can change the arguments for zbar in [simple-zbar.py](/simple-zbar/simple-zbar.py)
+
 Every time the code is run, a csv file is created that logs all the barcodes scanned with the data in [Data.csv](simple-zbar/Data.csv) if applicable for the session
+
 After you feel like you have scanned enough, press q to quit
 
 # Customization
