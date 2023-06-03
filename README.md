@@ -1,5 +1,5 @@
 # simple-zbar
-A barcode reader that takes video from webcam and shows customizable popups for barcodes and QR codes with optionally additional data
+A barcode reader that takes video from webcam and shows customizable popups for barcodes and QR codes with optionally additional data. Also save the barcodes scanned for the session in a timestamped csv file.
 
 # Usage
 You can start scanning barcodes/QR codes supported by zbar without any configuration. If you want to scan only a specific type(s) of barcode, you can change the arguments for zbar in [simple-zbar.py](/simple-zbar/simple-zbar.py)
