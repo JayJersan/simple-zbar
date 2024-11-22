@@ -96,6 +96,8 @@ def det(header, entry):
     details.after(5000,lambda:details.destroy())
     details.mainloop()
 flag = FALSE
+#flag = TRUE
+#Ignore above comment
 # Loop frames from video stream
 while True:
  # Grab frames from a single threaded video stream, 
